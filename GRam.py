@@ -43,7 +43,7 @@ class GRam:
             print("Address invalid.")
             return 
 
-        for i in range(self.ram):
+        for i in range(len(self.ram)):
             if self.ram[i][0] == address:
                 if self.ram[i][1] == "n":
                     return random.getrandbits(1)

@@ -23,3 +23,7 @@ print("\n")
 gram.spread()
 gram.print_ram()
 print("\n")
+
+print(gram.retrieve("01000"))
+print(gram.retrieve("00100"))
+print(gram.retrieve("11101"))
